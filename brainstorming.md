@@ -1,4 +1,65 @@
-## App Idea Evaluations
+Mobile App Dev - App Brainstorming
+===
+
+## Favorite Existing Apps - List
+1. Instagram
+2. Retro
+3. Thread
+4. Quizlet
+5. TomatoClock
+
+## Favorite Existing Apps - Categorize and Evaluate
+### Instagram
+   - **Category:** Photo & Video / Social 
+   - **Mobile:** Website is view only, uses camera, mobile first experience.
+   - **Story:** Allows users to share their lives in pictures and enhance their content with filters
+   - **Market:** Anyone that takes pictures could enjoy this app. Ability to follow and hashtag based on interests and categories allows users with unique interests to engage with relevant content.
+   - **Habit:** Users can post throughout the day many times. Features like "Stories" encourage more candid posting as well. Users can explore endless pictures in any category imaginable whenever they want. Very habit forming!
+   - **Scope:** Instagram started out extremely narrow focused, just posting pics and viewing feeds. Has expanded to a somewhat larger scope including "Instagram Stories" (a la SnapChat) and messenger features. 
+
+### Retro
+   - **Category:** Social / Lifestyle  
+   - **Mobile:** Mobile-first to capture moments instantly, uses camera and photo gallery, push notifications for delayed photo reveals  
+   - **Story:** Inspired by analog film cameras, Retro lets users capture moments but delays viewing for 3 days. Encourages mindfulness and presence.  
+   - **Market:** Gen Z, millennials, and digital minimalists who want nostalgia or a slower social experience.  
+   - **Habit:** Users snap photos often, but only return to the app to view them after the time lock expires. Builds anticipation.  
+   - **Scope:** Starts with basic time-locked photo capture and delayed viewing. Could grow into shared albums, printed collections, and AR memory boxes.
+
+### Thread
+   - **Category:** Social / Messaging  
+   - **Mobile:** Exclusively mobile with notifications, location-based features, and quick camera access  
+   - **Story:** Threads focuses on close friends and fast, casual sharing. Designed to keep users connected to their inner circle without distraction.  
+   - **Market:** Young users who prefer smaller, more intimate social networks.  
+   - **Habit:** Used throughout the day to send status updates, location, and quick media to a small group.  
+   - **Scope:** Simple messaging app, can expand into more personalized sharing (moods, auto-status), or group stories and voice notes.
+
+### Quizlet
+   - **Category:** Education / Productivity  
+   - **Mobile:** App is essential for flashcard practice on-the-go, with audio and study reminders  
+   - **Story:** Turns studying into interactive activities with flashcards, matching games, and live challenges  
+   - **Market:** Students from middle school through college, plus self-learners and teachers.  
+   - **Habit:** Used before tests and for daily review. School-assigned decks or personalized study sets.  
+   - **Scope:** Began with flashcards, now includes quizzes, diagrams, and collaborative classroom tools.
+
+### TomatoClock
+   - **Category:** Productivity  
+   - **Mobile:** Works well on both web and mobile, timer notifications and session logs are useful on-the-go  
+   - **Story:** Based on the Pomodoro Technique, TomatoClock helps users stay focused with timed work sessions and breaks  
+   - **Market:** Students, remote workers, freelancers—anyone looking to improve focus and time management  
+   - **Habit:** Used several times daily during work or study blocks  
+   - **Scope:** Core timer functionality can grow to include analytics, goal setting, focus music, and team accountability modes
+
+
+## New App Ideas - List
+1. QuizCraft
+2. HabitNest
+3. FocusBubble
+4. WanderNest
+5. CaptureNow
+
+## Top 2 New App Ideas
+1. FocusBubble
+2. CaptureNow
 
 ---
 
@@ -84,20 +145,22 @@
 
 ---
 
-### 5. StretchFlow  
-- **Category:** Health & Fitness  
+### 5. CaptureNow  
+- **Category:** Social / Lifestyle  
 - **Mobile:**  
-  - Daily access to guided stretch routines  
-  - Video, reminders, and timer-based sessions  
+  - Mobile-first to capture moments instantly  
+  - Uses camera and gallery  
+  - Push notifications for “memory unlocks”  
 - **Story:**  
-  Solves modern problem of poor posture and stiffness from prolonged sitting.  
+  CaptureNow brings back the feeling of analog photography — you take photos, but they’re locked and only revealed 3 days later. Adds mystery and mindfulness to digital memories.  
 - **Market:**  
-  Office workers, students, remote professionals  
-  - Monetization: premium programs, expert content  
+  Gen Z & millennials who crave nostalgia, digital detox, or intentional living  
+  - Monetization: premium filters, albums, and memory packs  
 - **Habit:**  
-  Daily routines, integrated into lifestyle  
+  Users snap photos regularly but only revisit them later, promoting presence in the moment  
 - **Scope:**  
-  - V1: Short routine videos  
-  - V2: Personalized plans  
-  - V3: Progress tracking  
-  - V4: Posture detection & smartwatch integration  
+  - V1: Time-locked photo capturing and viewing  
+  - V2: Albums, friends feed  
+  - V3: Group albums and event packs  
+  - V4: Print orders and AR “memory box” features  
+
