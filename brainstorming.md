@@ -106,22 +106,28 @@ Mobile App Dev - App Brainstorming
 ---
 
 ### 3. FocusBubble  
-- **Category:** Productivity  
+
+- **Category:** Productivity / Wellness
 - **Mobile:**  
-  - Start Pomodoro sessions and join focus rooms on the go  
-  - Sync with desktop for deeper use  
+  - Start Pomodoro focus sessions and mindfulness breaks  
+  - Join live focus rooms or solo sessions  
+  - Mobile-first with optional desktop sync  
+
 - **Story:**  
-  Combats distraction with structure and social accountability. Makes deep work feel less lonely.  
+  FocusBubble helps you dive into deep work with structured Pomodoro sessions, but it doesn't stop there. Between work sprints, it invites you to take guided meditation breaks or reflect with short journaling prompts. It turns productivity into a balanced rhythm of focus and renewal.
+
 - **Market:**  
-  Students, remote workers, freelancers  
-  - Monetization: premium team rooms, session stats, ambient packs  
+  Students, remote workers, freelancers, creators — anyone who wants more mindful productivity.  
+
 - **Habit:**  
-  Daily deep work sessions, task planning.  
+  Encourages users to build daily cycles of deep work, mindful breaks, and personal reflection. Users can track how they feel before/after sessions and build emotional awareness alongside productivity.  
+
 - **Scope:**  
-  - V1: Basic timer and focus rooms  
-  - V2: Stats dashboard  
-  - V3: Friends/team rooms  
-  - V4: AI coach and calendar sync  
+  - **V1:** Pomodoro timer, focus room, guided meditation breaks  
+  - **V2:** Personal mood and reflection journal  
+  - **V3:** Friends & team accountability rooms  
+  - **V4:** AI coach for mood insights, task suggestions, calendar sync  
+
 
 ---
 
