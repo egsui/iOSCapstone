@@ -121,3 +121,117 @@ Original App Design Project - README
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
+
+
+# Sprint Planning for FocusBubble
+
+## Sprint 1: **Set up the project and integrate basic networking**
+**Duration**: 1 week  
+**Goals**:  
+- Set up the project repository on GitHub, establish basic app structure, and integrate version control.
+- Set up a basic **Pomodoro timer** feature (without a UI) for testing networking.
+- Implement **read-only networking** to fetch data (e.g., meditation types, Pomodoro session details) from a mock API or a placeholder backend.
+
+**Tasks**:
+- Initialize project structure (folders, files, libraries).
+- Set up API client for reading meditation and Pomodoro session data.
+- Test basic networking flow with mock data.
+
+---
+
+## Sprint 2: **Design and implement the Home Screen**
+**Duration**: 1 week  
+**Goals**:  
+- Design and implement the **Home Screen** to display the Pomodoro timer and options to start focus sessions.
+- Allow the user to initiate a Pomodoro session.
+- Implement UI for showing the timer countdown and session controls.
+
+**Tasks**:
+- Create Home Screen UI (Pomodoro timer, Start/Stop buttons).
+- Implement Pomodoro session start/stop functionality.
+- Connect the Pomodoro timer with backend to manage session state (e.g., start and end time).
+
+---
+
+## Sprint 3: **Build the Meditation Screen and implement breaks**
+**Duration**: 1 week  
+**Goals**:  
+- Design and implement the **Meditation Screen** where users can take a break after each Pomodoro session.
+- Integrate a **meditation feature** with different session types (e.g., Focus Flow, Unwind).
+- Add a timer for meditation breaks and soothing background music.
+
+**Tasks**:
+- Create UI for meditation screen (options for meditation type and timer).
+- Integrate with backend to fetch meditation audio files and types.
+- Implement logic to transition from Pomodoro timer to meditation break.
+
+---
+
+## Sprint 4: **Build the User Profile Screen and Mood Tracking**
+**Duration**: 1 week  
+**Goals**:  
+- Design and implement the **User Profile Screen**.
+- Allow users to track their mood and add journal entries after each Pomodoro session.
+- Store mood data and reflections in local storage (or a backend database).
+
+**Tasks**:
+- Create profile UI with user details and mood tracking.
+- Implement functionality for users to enter and save mood reflections.
+- Set up local data persistence (e.g., saving user mood history in a local database).
+
+---
+
+## Sprint 5: **Implement Focus Rooms for Social Accountability**
+**Duration**: 1 week  
+**Goals**:  
+- Design and implement **Friends/Team Room** functionality.
+- Users should be able to join or create focus rooms with friends or colleagues for social accountability.
+- Display the number of active participants in each room.
+
+**Tasks**:
+- Create UI for room creation and joining.
+- Implement functionality to create and manage focus rooms.
+- Display participants and allow users to join rooms.
+
+---
+
+## Sprint 6: **Implement Journaling and Insights**
+**Duration**: 1 week  
+**Goals**:  
+- Add the **Journal Screen** to track user reflections after each Pomodoro session.
+- Implement a system to provide insights about emotional states and productivity patterns.
+- Store journal entries and insights data for future reference.
+
+**Tasks**:
+- Create journal screen UI with mood reflection prompts.
+- Implement mood and productivity insights functionality.
+- Integrate with backend to store journal entries and insights.
+
+---
+
+## Sprint 7: **Premium Features and Advanced User Tracking**
+**Duration**: 1 week  
+**Goals**:  
+- Implement premium features such as unlocking additional meditation packs (e.g., "Focus Flow," "Unwind").
+- Implement tracking of user productivity trends and insights across sessions.
+- Add the ability to view analytics on how productivity improves over time.
+
+**Tasks**:
+- Implement feature unlocking for premium meditation packs.
+- Add analytics tracking for user productivity (e.g., number of sessions completed, productivity improvements).
+- Set up UI for viewing advanced insights and premium features.
+
+---
+
+## Sprint 8: **Testing and Bug Fixing**
+**Duration**: 1 week  
+**Goals**:  
+- Thorough testing of all app features, including UI, networking, data persistence, and user accounts.
+- Address bugs and issues found during testing.
+- Polish app for the final release.
+
+**Tasks**:
+- Conduct unit and integration tests for the core features (Pomodoro timer, meditation, journaling).
+- Perform user acceptance testing (UAT).
+- Fix bugs and issues based on testing feedback.
+
