@@ -106,8 +106,6 @@ Original App Design Project - README
 
 ## Schema 
 
-[This section will be completed in Unit 9]
-
 ### Models
 
 
