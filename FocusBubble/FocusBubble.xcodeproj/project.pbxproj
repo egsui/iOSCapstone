@@ -7,24 +7,24 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		3F8A1E712DB96CA000222C4A /* FocusBubble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FocusBubble.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F8A1EA72DB98E3F00222C4A /* FocusBubble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FocusBubble.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		3F8A1E832DB96CA100222C4A /* Exceptions for "FocusBubble" folder in "FocusBubble" target */ = {
+		3F8A1EB92DB98E4000222C4A /* Exceptions for "FocusBubble" folder in "FocusBubble" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 3F8A1E702DB96CA000222C4A /* FocusBubble */;
+			target = 3F8A1EA62DB98E3F00222C4A /* FocusBubble */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		3F8A1E732DB96CA000222C4A /* FocusBubble */ = {
+		3F8A1EA92DB98E3F00222C4A /* FocusBubble */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				3F8A1E832DB96CA100222C4A /* Exceptions for "FocusBubble" folder in "FocusBubble" target */,
+				3F8A1EB92DB98E4000222C4A /* Exceptions for "FocusBubble" folder in "FocusBubble" target */,
 			);
 			path = FocusBubble;
 			sourceTree = "<group>";
@@ -32,7 +32,7 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3F8A1E6E2DB96CA000222C4A /* Frameworks */ = {
+		3F8A1EA42DB98E3F00222C4A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,18 +42,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3F8A1E682DB96CA000222C4A = {
+		3F8A1E9E2DB98E3F00222C4A = {
 			isa = PBXGroup;
 			children = (
-				3F8A1E732DB96CA000222C4A /* FocusBubble */,
-				3F8A1E722DB96CA000222C4A /* Products */,
+				3F8A1EA92DB98E3F00222C4A /* FocusBubble */,
+				3F8A1EA82DB98E3F00222C4A /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		3F8A1E722DB96CA000222C4A /* Products */ = {
+		3F8A1EA82DB98E3F00222C4A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3F8A1E712DB96CA000222C4A /* FocusBubble.app */,
+				3F8A1EA72DB98E3F00222C4A /* FocusBubble.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,64 +61,64 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3F8A1E702DB96CA000222C4A /* FocusBubble */ = {
+		3F8A1EA62DB98E3F00222C4A /* FocusBubble */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3F8A1E842DB96CA100222C4A /* Build configuration list for PBXNativeTarget "FocusBubble" */;
+			buildConfigurationList = 3F8A1EBA2DB98E4000222C4A /* Build configuration list for PBXNativeTarget "FocusBubble" */;
 			buildPhases = (
-				3F8A1E6D2DB96CA000222C4A /* Sources */,
-				3F8A1E6E2DB96CA000222C4A /* Frameworks */,
-				3F8A1E6F2DB96CA000222C4A /* Resources */,
+				3F8A1EA32DB98E3F00222C4A /* Sources */,
+				3F8A1EA42DB98E3F00222C4A /* Frameworks */,
+				3F8A1EA52DB98E3F00222C4A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				3F8A1E732DB96CA000222C4A /* FocusBubble */,
+				3F8A1EA92DB98E3F00222C4A /* FocusBubble */,
 			);
 			name = FocusBubble;
 			packageProductDependencies = (
 			);
 			productName = FocusBubble;
-			productReference = 3F8A1E712DB96CA000222C4A /* FocusBubble.app */;
+			productReference = 3F8A1EA72DB98E3F00222C4A /* FocusBubble.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		3F8A1E692DB96CA000222C4A /* Project object */ = {
+		3F8A1E9F2DB98E3F00222C4A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1620;
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
-					3F8A1E702DB96CA000222C4A = {
+					3F8A1EA62DB98E3F00222C4A = {
 						CreatedOnToolsVersion = 16.2;
 					};
 				};
 			};
-			buildConfigurationList = 3F8A1E6C2DB96CA000222C4A /* Build configuration list for PBXProject "FocusBubble" */;
+			buildConfigurationList = 3F8A1EA22DB98E3F00222C4A /* Build configuration list for PBXProject "FocusBubble" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 3F8A1E682DB96CA000222C4A;
+			mainGroup = 3F8A1E9E2DB98E3F00222C4A;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 3F8A1E722DB96CA000222C4A /* Products */;
+			productRefGroup = 3F8A1EA82DB98E3F00222C4A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3F8A1E702DB96CA000222C4A /* FocusBubble */,
+				3F8A1EA62DB98E3F00222C4A /* FocusBubble */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3F8A1E6F2DB96CA000222C4A /* Resources */ = {
+		3F8A1EA52DB98E3F00222C4A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -128,7 +128,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3F8A1E6D2DB96CA000222C4A /* Sources */ = {
+		3F8A1EA32DB98E3F00222C4A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -138,7 +138,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		3F8A1E852DB96CA100222C4A /* Debug */ = {
+		3F8A1EBB2DB98E4000222C4A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -166,7 +166,7 @@
 			};
 			name = Debug;
 		};
-		3F8A1E862DB96CA100222C4A /* Release */ = {
+		3F8A1EBC2DB98E4000222C4A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -194,7 +194,7 @@
 			};
 			name = Release;
 		};
-		3F8A1E872DB96CA100222C4A /* Debug */ = {
+		3F8A1EBD2DB98E4000222C4A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -257,7 +257,7 @@
 			};
 			name = Debug;
 		};
-		3F8A1E882DB96CA100222C4A /* Release */ = {
+		3F8A1EBE2DB98E4000222C4A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -316,25 +316,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3F8A1E6C2DB96CA000222C4A /* Build configuration list for PBXProject "FocusBubble" */ = {
+		3F8A1EA22DB98E3F00222C4A /* Build configuration list for PBXProject "FocusBubble" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3F8A1E872DB96CA100222C4A /* Debug */,
-				3F8A1E882DB96CA100222C4A /* Release */,
+				3F8A1EBD2DB98E4000222C4A /* Debug */,
+				3F8A1EBE2DB98E4000222C4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3F8A1E842DB96CA100222C4A /* Build configuration list for PBXNativeTarget "FocusBubble" */ = {
+		3F8A1EBA2DB98E4000222C4A /* Build configuration list for PBXNativeTarget "FocusBubble" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3F8A1E852DB96CA100222C4A /* Debug */,
-				3F8A1E862DB96CA100222C4A /* Release */,
+				3F8A1EBB2DB98E4000222C4A /* Debug */,
+				3F8A1EBC2DB98E4000222C4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 3F8A1E692DB96CA000222C4A /* Project object */;
+	rootObject = 3F8A1E9F2DB98E3F00222C4A /* Project object */;
 }

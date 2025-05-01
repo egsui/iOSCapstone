@@ -1,24 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Bpr-eA-r6g">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Meditate-->
+        <scene sceneID="gY6-Aa-KMn">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                <viewController id="tio-lj-c9h" customClass="MeditationViewController" customModule="FocusBubble" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="B6S-uu-uaB">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <viewLayoutGuide key="safeArea" id="M0C-GM-aGr"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Meditate" image="sparkles" catalog="system" selectedImage="apple.meditate" id="TrR-ql-Dmt"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0s7-2c-EMx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="430" y="-168"/>
+        </scene>
+        <!--Rooms-->
+        <scene sceneID="GMm-Ut-R4X">
+            <objects>
+                <viewController id="hh5-dm-1CR" customClass="JournalViewController" customModule="FocusBubble" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jnU-Me-rHZ">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="xUq-wh-KGD"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Rooms" image="person.3.fill" catalog="system" selectedImage="square.split.bottomrightquarter" id="YUw-lC-0Vh"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="b1B-Db-keR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1207" y="282"/>
+        </scene>
+        <!--Journal-->
+        <scene sceneID="zum-Ff-YPg">
+            <objects>
+                <viewController id="T7R-VL-zQT" customClass="RoomsViewController" customModule="FocusBubble" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QPW-68-srA">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="xe2-7f-fUd"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Journal" image="book.fill" catalog="system" selectedImage="note.text" id="TGP-Zu-qC5"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rTa-AC-7RF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-479" y="282"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="6kj-tB-Mzq">
+            <objects>
+                <viewController id="RrR-Nh-Nna" customClass="HomeViewController" customModule="FocusBubble" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cJ5-mi-TgY">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="06i-YW-YdW"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Home" image="house.fill" catalog="system" selectedImage="timer" id="Uxj-tA-5kg"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7OA-tH-AI9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="430" y="-849"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="kcf-ox-PgB">
+            <objects>
+                <tabBarController id="Bpr-eA-r6g" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="MKS-e6-Sxn">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="RrR-Nh-Nna" kind="relationship" relationship="viewControllers" id="3xo-47-3PY"/>
+                        <segue destination="tio-lj-c9h" kind="relationship" relationship="viewControllers" id="wDu-e9-WrL"/>
+                        <segue destination="hh5-dm-1CR" kind="relationship" relationship="viewControllers" id="SgF-QS-Dgm"/>
+                        <segue destination="T7R-VL-zQT" kind="relationship" relationship="viewControllers" id="Tng-3R-7zp"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lab-1f-Toj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-478" y="-545"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="apple.meditate" catalog="system" width="128" height="117"/>
+        <image name="book.fill" catalog="system" width="128" height="95"/>
+        <image name="house.fill" catalog="system" width="128" height="104"/>
+        <image name="note.text" catalog="system" width="128" height="107"/>
+        <image name="person.3.fill" catalog="system" width="128" height="66"/>
+        <image name="sparkles" catalog="system" width="115" height="128"/>
+        <image name="square.split.bottomrightquarter" catalog="system" width="128" height="114"/>
+        <image name="timer" catalog="system" width="128" height="123"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>
